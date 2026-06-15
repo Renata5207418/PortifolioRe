@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renata Scharf | Portfólio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+                &lt;Renata.Scharf /&gt;
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#sobre" class="hover:text-indigo-400 transition">Sobre</a>
+                <a href="#skills" class="hover:text-indigo-400 transition">Tecnologias</a>
+                <a href="#projetos" class="hover:text-indigo-400 transition">Projetos</a>
+                <a href="#contato" class="hover:text-indigo-400 transition">Contato</a>
+            </nav>
+            <div class="md:hidden">
+                <!-- Mobile menu button can be added here if needed -->
+                <a href="#contato" class="text-xs bg-indigo-600 hover:bg-indigo-500 text-white px-4 py-2 rounded-full transition font-semibold shadow-lg shadow-indigo-600/20">Contato</a>
+            </div>
+        </div>
+    </header>
+
+<!-- Hero Section -->
+    <section class="relative min-h-[70vh] flex items-center justify-center py-20 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(79,70,229,0.1),transparent_50%)]"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(6,182,212,0.1),transparent_50%)]"></div>
+
+        <div class="max-w-4xl mx-auto text-center px-4 relative z-10 flex flex-col items-center">            
+            <span class="text-xl sm:text-2xl text-slate-400 font-medium mb-3">Olá, eu sou a</span>
+            
+            <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight mb-6 w-full">
+                <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent block pb-2">
+                    Renata Scharf
+                </span>
+            </h1>
+
+            <p class="text-xl sm:text-2xl text-slate-200 font-medium mb-6">
+                Desenvolvedora Júnior em Constante Aprendizado
+            </p>
+
+            <p class="text-base sm:text-lg text-slate-400 max-w-3xl mx-auto leading-relaxed">
+                Apaixonada por codificar e resolver problemas reais. Tenho focado meus estudos na construção de sistemas fullstack úteis e bem estruturados, utilizando tecnologias como <strong>React e bancos de dados modernos</strong> para criar interfaces dinâmicas e funcionais.
+            </p>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="py-20 border-t border-slate-800 bg-slate-900/50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-10 items-start">
+
+                <div class="md:col-span-4">
+                    <h2 class="text-2xl font-bold text-white border-l-4 border-indigo-500 pl-4">
+                        Sobre mim
+                    </h2>
+                    <p class="text-slate-400 mt-4 text-sm leading-relaxed">
+                        Acredito que a melhor forma de aprender a programar é colocando a mão na massa e construindo coisas que façam sentido.
+                    </p>
+                </div>
+
+                <div class="md:col-span-8 space-y-6 text-slate-300 leading-relaxed text-base">
+                    <p>
+                        Minha trajetória na tecnologia começou pela curiosidade de entender como os processos poderiam funcionar melhor. Hoje, sou uma desenvolvedora em fase de crescimento e dedico meu tempo a estudar, testar e estruturar aplicações práticas do zero.
+                    </p>
+                    <p>
+                        Antes de migrar para a área de tecnologia, atuei na área comercial. Essa experiência me ajuda a enxergar não apenas o código, mas o impacto que uma solução gera para quem a utiliza, garantindo que o sistema seja funcional e intuitivo.
+                    </p>
+                    <p>
+                        No dia a dia, venho aprofundando meus conhecimentos na criação de interfaces modernas com <strong>React</strong> e na estruturação de dados utilizando <strong>MongoDB e Python</strong>. Além disso, estou cursando uma <strong>pós-graduação em Cibersegurança</strong> e estudando os fundamentos de <strong>Java</strong>, o que me ajuda a desenvolver uma visão crítica sobre a proteção de dados e boas práticas de arquitetura.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<!-- Skills Section -->
+    <section id="skills" class="py-20 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-white">Stack Tecnológica & Expertise</h2>
+                <p class="text-slate-400 mt-2">As ferramentas, linguagens e ambientes com os quais estudo e construo soluções.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Backend -->
+                <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-10 h-10 rounded-xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 mb-4">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Backend & APIs</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">Python</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">FastAPI & Flask</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">REST APIs</span>
+                        <span class="bg-slate-800 border border-indigo-500/30 px-2.5 py-1 rounded-md text-xs font-medium text-indigo-300">Java (Fundamentos)</span>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-10 h-10 rounded-xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-cyan-400 mb-4">
+                        <i class="fa-code fa-solid"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Frontend</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">React</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">TypeScript</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">JavaScript</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">Tailwind CSS</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">Vite</span>
+                    </div>
+                </div>
+
+                <!-- Dados & Bancos -->
+                <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-purple-400 mb-4">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Dados & Bancos</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">MongoDB</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">MySQL / SQL Server</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">Pandas</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">RPA / Automação</span>
+                    </div>
+                </div>
+
+                <!-- Infra & Segurança -->
+                <div class="bg-slate-800/40 border border-slate-800 p-6 rounded-2xl">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 mb-4">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-3">Infra & Segurança</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">AWS (S3 / EC2)</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">Docker</span>
+                        <span class="bg-slate-800 px-2.5 py-1 rounded-md text-xs font-medium text-slate-300">Linux (Ubuntu)</span>
+                        <span class="bg-slate-800 border border-emerald-500/30 px-2.5 py-1 rounded-md text-xs font-medium text-emerald-300">Cibersegurança</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="py-20 border-t border-slate-800 bg-slate-900/50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-white">Projetos & Estudos Práticos</h2>
+                <p class="text-slate-400 mt-2">Soluções desenvolvidas para automação inteligente e integração de sistemas.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Projeto 1: Sistema de Triagem (Automação de Processos / IDP) -->
+                <div class="bg-slate-800/30 border border-slate-800 rounded-2xl overflow-hidden hover:border-slate-700 transition flex flex-col h-full">
+                    <div class="p-6 flex-grow">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-semibold text-indigo-400 tracking-wider uppercase">Automação de Processos / IA</span>
+                            <a href="https://github.com/Renata5207418/Sistema_Triagem" target="_blank" class="flex items-center gap-2 text-slate-400 hover:text-white transition bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700">
+                                <span class="text-xs font-medium">Ver código</span>
+                                <i class="fa-brands fa-github text-base"></i>
+                            </a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Sistema de Triagem Inteligente</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Automação robusta que monitora pastas de rede, realiza descompressão recursiva e classifica documentos via <strong>IA Generativa</strong>. O sistema processa, organiza e integra arquivos fiscais entre diretórios e nuvem, operando via orquestrador central com alta resiliência.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="bg-slate-800/80 px-2 py-0.5 rounded text-xs text-slate-400">Python (Multiprocessing)</span>
+                            <span class="bg-slate-800/80 px-2 py-0.5 rounded text-xs text-slate-400">IA / LLMs</span>
+                            <span class="bg-slate-800/80 px-2 py-0.5 rounded text-xs text-slate-400">Processamento de Arquivos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2: Postagem (RPA Clássico) -->
+                <div class="bg-slate-800/30 border border-slate-800 rounded-2xl overflow-hidden hover:border-slate-700 transition flex flex-col h-full">
+                    <div class="p-6 flex-grow">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-semibold text-cyan-400 tracking-wider uppercase">RPA / Automação Desktop</span>
+                            <a href="https://github.com/Renata5207418/Postagem-de-Arquivos" target="_blank" class="flex items-center gap-2 text-slate-400 hover:text-white transition bg-slate-800 px-3 py-1.5 rounded-lg border border-slate-700">
+                                <span class="text-xs font-medium">Ver código</span>
+                                <i class="fa-brands fa-github text-base"></i>
+                            </a>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Bot Integrador Onvio</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                            Automação de interface (RPA) que simula ações humanas para realizar postagens de documentos em softwares legados (desktop). O sistema verifica a integridade das operações através de requisições HTTP e possui agendamento periódico integrado.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5">
+                            <span class="bg-slate-800/80 px-2 py-0.5 rounded text-xs text-slate-400">Python / Flask</span>
+                            <span class="bg-slate-800/80 px-2 py-0.5 rounded text-xs text-slate-400">RPA (PyWinAuto)</span>
+                            <span class="bg-slate-800/80 px-2 py-0.5 rounded text-xs text-slate-400">Integração Web-Desktop</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Botão de GitHub Destacado -->
+            <div class="mt-16 max-w-2xl mx-auto bg-slate-800/40 border border-slate-700/50 rounded-2xl p-8 text-center shadow-sm">
+                <h3 class="text-xl font-bold text-white mb-2">Explore meus códigos</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">
+                    Veja como estruturo meus projetos, desde a automação de interface até o processamento inteligente de dados.
+                </p>
+                <a href="https://github.com/Renata5207418" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3.5 rounded-xl font-semibold transition shadow-lg shadow-indigo-600/20 w-full sm:w-auto">
+                    <i class="fa-brands fa-github text-xl"></i> Acessar GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+   <section id="contato" class="py-20 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Vamos conversar?</h2>
+            <p class="text-slate-400 max-w-lg mx-auto mb-10 text-base">
+                Estou em busca da minha próxima oportunidade como desenvolvedora. Se você está procurando alguém dedicado para o seu time ou quer apenas trocar uma ideia sobre tecnologia, me mande uma mensagem!
+            </p> 
+
+            <div class="flex flex-col sm:flex-row justify-center items-stretch gap-6">
+                <a href="mailto:renata.boppre@gmail.com?subject=Contato%20pelo%20Portfólio" class="w-full sm:w-auto bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3 rounded-xl font-semibold transition shadow-lg shadow-indigo-600/20 flex flex-col items-center justify-center gap-1">
+                    <span class="flex items-center gap-2"><i class="fa-solid fa-envelope"></i> Enviar E-mail</span>
+                    <span class="text-xs font-normal text-indigo-200">renata.boppre@gmail.com</span>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/renata-scharf-22b042207/" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 px-8 py-3 rounded-xl font-semibold transition flex flex-col items-center justify-center gap-1">
+                    <span class="flex items-center gap-2"><i class="fa-brands fa-linkedin"></i> Conectar no LinkedIn</span>
+                    <span class="text-xs font-normal text-slate-400">Ver perfil completo</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800/60 bg-slate-950 py-8">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between text-sm text-slate-500 gap-4">
+            <p>&copy; 2026 Renata Scharf. Todos os direitos reservados.</p>
+            <div class="flex space-x-6">
+                <a href="https://github.com/Renata5207418" target="_blank" rel="noopener noreferrer" class="hover:text-slate-400 transition"><i class="fa-brands fa-github text-lg"></i></a>
+                <a href="https://www.linkedin.com/in/renata-scharf-22b042207/" target="_blank" rel="noopener noreferrer" class="hover:text-slate-400 transition"><i class="fa-brands fa-linkedin text-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
